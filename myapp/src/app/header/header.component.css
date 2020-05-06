@@ -2,6 +2,7 @@
 h1 {
     font-size: 1.2em;
     margin-bottom: 0;
+    background-color: #070330;
   }
   h2 {
     font-size: 2em;
@@ -9,11 +10,11 @@ h1 {
     padding-top: 0;
   }
   nav a {
-    padding: 5px 10px;
+    padding: 0px 0px;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
-    background-color: #eee;
+    background-color: #070330;
     border-radius: 4px;
   }
   nav a:visited, a:link {
@@ -21,7 +22,7 @@ h1 {
   }
   nav a:hover {
     color: #039be5;
-    background-color: #cfd8dc;
+    background-color: #070330;
   }
   nav a.active {
     color: #039be5;
@@ -31,14 +32,9 @@ h1 {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    background-color: #070330;
   }
  
- .my-container{
-   width: 100vw;
-   height: 100vh;
-
- }
-  
   
   /*
   Copyright Google LLC. All Rights Reserved.
