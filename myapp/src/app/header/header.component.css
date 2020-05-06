@@ -26,6 +26,18 @@ h1 {
   nav a.active {
     color: #039be5;
   }
+
+  body, html {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+ 
+ .my-container{
+   width: 100vw;
+   height: 100vh;
+
+ }
   
   
   /*
