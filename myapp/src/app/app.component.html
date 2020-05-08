@@ -2,9 +2,20 @@
 <link rel="stylesheet" type="text/css" href="/node_modules/primeng/resources/themes/nova-light/theme.css" />
 <link rel="stylesheet" type="text/css" href="/node_modules/primeng/resources/primeng.min.css" />
 
-<app-header></app-header>
-<app-sidescroll style="float:left"></app-sidescroll>
+<h1>
+    <app-header></app-header> <!--This is where the header goes-->
+     
+    <app-sidescroll style="float:left"></app-sidescroll>
 
-<div class="row">
-    <div class="md-2"><app-body></app-body></div>
-</div>
+    <div class = "body">
+        <app-body></app-body>
+    </div>
+    
+    <div class ="scroll">
+        <app-scrollabletextareas style="float: right "></app-scrollabletextareas> <!--I was not able to make the scrollable areas be next to each other-->
+    </div>
+
+
+    
+
+</h1>

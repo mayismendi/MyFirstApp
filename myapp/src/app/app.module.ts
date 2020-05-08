@@ -6,16 +6,22 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
-import { FooterComponent } from './footer/footer.component';
 import { SidescrollComponent } from './sidescroll/sidescroll.component';
+import { ScrollabletextareasComponent } from './scrollabletextareas/scrollabletextareas.component';
+import { FirstscrollComponent } from './firstscroll/firstscroll.component';
+import { SecondscrollComponent } from './secondscroll/secondscroll.component';
+import { ThirdscrollComponent } from './thirdscroll/thirdscroll.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent,
     SidescrollComponent,
+    ScrollabletextareasComponent,
+    FirstscrollComponent,
+    SecondscrollComponent,
+    ThirdscrollComponent,
   ],
   imports: [
     BrowserModule,
